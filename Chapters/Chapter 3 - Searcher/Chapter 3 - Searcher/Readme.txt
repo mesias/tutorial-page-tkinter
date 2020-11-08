@@ -1,0 +1,2 @@
+Chapter 3 - A More Realistic Project (Searcher)
+    Chapter Three revisits a project that was covered in Full Circle Magazine back in 2012. The goal of the project was to create a program that would recursively search through a directory (and its sub-directories) and put the results into a spreadsheet like grid using a ScrolledTreeview ttk widget.  The starting directory is set using a pop up dialog box and displayed in a single line entry box after selection. This chapter also shows how to change the default mouse cursor to a busy cursor and back.

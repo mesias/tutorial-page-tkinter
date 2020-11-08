@@ -1,0 +1,3 @@
+Chapter 4 - Linking a Media Player to Searcher
+    Chapter Four extends the Searcher project by adding a media player and teaches how to create and use a Generic About Box for the project.  The media player, which can either be launched as part of Searcher or run as a standalone player, is built around the VLC player Python library and demonstrates how to interface the user interface to that library.  It also discusses the use of the canvas widget as well as the scrolled widget both dynamically and manually.  Other topics include how to create an application menu bar, how to add a second form into a program and how to use the .after methods of the root window as a timer.
+
