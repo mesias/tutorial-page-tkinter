@@ -33,11 +33,13 @@ def set_Tk_var():
     global Colors
     Colors = StringVar()
     global che39
-    che39 = StringVar()
+    che39 = BooleanVar()
     global che40
-    che40 = StringVar()
+    che40 = BooleanVar()
     global che41
-    che41 = StringVar()
+    che41 = BooleanVar()
+    global entryText
+    entryText = StringVar()
 
 def btnExit_lclick(p1):
     print('SecondApp_support.btnExit_lclick')
@@ -47,20 +49,20 @@ def btnExit_lclick(p1):
 def btnGetChecks_lclick(p1):
     print('SecondApp_support.btnGetChecks_lclick')
     sys.stdout.flush()
-    if che39.get() == "1":
+    if che39.get():
         print("chkApples")
-    if che40.get() == "1":
+    if che40.get():
         print("chkBanana")
-    if che41.get() == "1":
+    if che41.get():
         print("chkGrapes")
     
 def btnGetText_lclick(p1):
     print('SecondApp_support.btnGetText_lclick')
     sys.stdout.flush()
-    print(w.entryExample.get())
+    print(entryText.get())
     
 def ClearChecks():
-    che41.set("0")
+    che41.set(True)
     che40.set("0")
     che39.set("0")
     
